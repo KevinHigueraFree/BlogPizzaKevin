@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de pizzas</title>
+    <meta name="description" content="pagina web de cursos sobre pizzas, pagina web hecha por Kevin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,600&family=Sen:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/normalize.css" as="style"><!-- Para precargar la pagina normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style"><!-- Para precargar la pagina styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="negro-transparente">
+            <div class="contenedor">
+                <div class="barra">
+                    <a href="index.html" class="logo">
+                        <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="bold">DePizza</span></h1>
+                    </a>
+                    <nav class="navegacion">
+                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div><!-- barra -->
+            </div><!-- contenedor -->
+            <div class="header__texto centrar-texto">
+                <h3 class="no-margin">Aprende con Kevin</h3>
+                <p class="no-margin">Cursos sobre como hacer unas deliciosas pizzas</p>
+            </div><!-- header-texto -->
+        </div><!-- negro-transparente -->
+    </header>
+    <div>
+        <main>
+            <h2>Los Mejores Cursos</h2>
+            <article class="curso">
+                <div class="curso__imagen">
+                    <picture>
+                        <source class="curso-img" srcset="img/pizza4.webp" type="imagen/webp" loading="lazy">
+                        <img class="curso-img" src="img/pizza4.jpg" alt="imagen de pizza">
+                    </picture>
+                </div>
+                <div class="curso__informacion">
+                    <h3>Pizzas Tomateras</h3>
+                    <h4 class="bold">Precio: <span class="normal">$200</span></h4>
+                    <h4 class="bold">Cupo disponible: <span class="normal">67</span></h4>
+                    <h4 class="bold">Estudiantes inscritos: <span class="normal">424</span></h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo recusandae dolorum quaerat incidunt, est, fugit non nulla cupiditate fugiat perspiciatis nisi. Beatae necessitatibus iste doloribus exercitationem odit. Possimus, odit optio.</p>
+                    <a href="index.html" class="boton boton-primario centrar-texto">Inscribirme</a>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="curso__imagen">
+                    <picture>
+                        <source class="curso-img" srcset="img/pizza5.webp" type="imagen/webp" loading="lazy">
+                        <img class="curso-img" src="img/pizza5.jpg" alt="imagen de pizza">
+                    </picture>
+                </div>
+                <div class="curso__informacion">
+                    <h3>Pizzas de huevo</h3>
+                    <h4 class="bold">Precio: <span class="normal">$150</span></h4>
+                    <h4 class="bold">Cupo disponible: <span class="normal">50</span></h4>
+                    <h4 class="bold">Estudiantes inscritos: <span class="normal">302</span></h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo recusandae dolorum quaerat incidunt, est, fugit non nulla cupiditate fugiat perspiciatis nisi. Beatae necessitatibus iste doloribus exercitationem odit. Possimus, odit optio.</p>
+                    <a href="index.html" class="boton boton-primario centrar-texto">Inscribirme</a>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="curso__imagen">
+                    <picture>
+                        <source class="curso-img" srcset="img/pizza6.webp" type="imagen/webp" loading="lazy">
+                        <img class="curso-img" src="img/pizza6.jpg" alt="imagen de pizza">
+                    </picture>
+                </div>
+                <div class="curso__informacion">
+                    <h3>Pizzas Clasicas</h3>
+                    <h4 class="bold">Precio: <span class="normal">$430</span></h4>
+                    <h4 class="bold">Cupo disponible: <span class="normal">12</span></h4>
+                    <h4 class="bold">Estudiantes inscritos: <span class="normal">650</span></h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo recusandae dolorum quaerat incidunt, est, fugit non nulla cupiditate fugiat perspiciatis nisi. Beatae necessitatibus iste doloribus exercitationem odit. Possimus, odit optio.</p>
+                    <a href="index.html" class="boton boton-primario centrar-texto">Inscribirme</a>
+                </div>
+            </article>
+
+
+        </main>
+       
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h2 class="logo__nombre no-margin centrar-texto">Blog<span class="bold">DePizza</span></h2>
+                </a>
+                <nav class="navegacion">
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+    </footer>
+
+
+
+
+
+    <script src="js/modernizr.js"></script><!--Es para el SEO -->
+</body>
+
+</html>

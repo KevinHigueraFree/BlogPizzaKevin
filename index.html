@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de pizzas</title>
+    <meta name="description" content="pagina web de cursos sobre pizzas, pagina web hecha por Kevin">
+
+    <link rel="prefetch" href="cursos.html" as="document"><!-- Para precargar la pagina cursos.html -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,600&family=Sen:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/normalize.css" as="style"><!-- Para precargar la pagina normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style"><!-- Para precargar la pagina styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="negro-transparente">
+            <div class="contenedor">
+                <div class="barra">
+                    <a href="index.html" class="logo">
+                        <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="bold">DePizza</span></h1>
+                    </a>
+                    <nav class="navegacion">
+                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div><!-- barra -->
+            </div><!-- contenedor -->
+            <div class="header__texto centrar-texto">
+                <h3 class="no-margin">Aprende con Kevin</h3>
+                <p class="no-margin">Cursos sobre como hacer unas deliciosas pizzas</p>
+            </div><!-- header-texto -->
+        </div><!-- negro-transparente -->
+    </header>
+    <div class="contenedor contenido-principal">
+        
+        <main class="bloger">
+            <h2 class="centrar-texto">Nuestro Blog</h2>
+            <article class="blog left-texto">
+                <div class="blog__imagen">
+                   <picture>
+                        <source  srcset="img/pizza1.webp" class="blog-img" type="image/webp" loading="lazy"><!--Para aplicar imagen webp -->
+                        <img class="blog-img" src="img/pizza1.jpg" alt="Imagen de pizza" loading="lazy">
+                    </picture>
+                </div>
+                <div class="blog__informacion">
+                    <h3 class="blog__nombre">Pizzas enchilosas</h3>
+                    <p class="blog__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, mollitia nesciunt excepturi impedit dolorem animi aperiam quis iste! Aspernatur, corrupti ad ipsum consequuntur quas praesentium dolorum dolorem sequi dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores, ratione earum id illum, minima amet reprehenderit dicta velit nemo, omnis voluptate repellendus assumenda veritatis molestiae voluptas quisquam sed! Quam.</p>
+                    <a href="entrada.html" class="boton centrar-texto boton-primario" >Leer Entrada</a>
+                </div>
+            </article>
+            <article class="blog left-texto">
+                <div class="blog__imagen">
+                   <picture>
+                        <source  srcset="img/pizza2.webp" class="blog-img" type="image/webp" loading="lazy"><!--Para aplicar imagen webp -->
+                        <img class="blog-img" src="img/pizza2.jpg" alt="Imagen de pizza" loading="lazy">
+                    </picture>
+                </div>
+                <div class="blog__informacion">
+                    <h3 class="blog__nombre">Pizzas Clasicas</h3>
+                    <p class="blog__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, mollitia nesciunt excepturi impedit dolorem animi aperiam quis iste! Aspernatur, corrupti ad ipsum consequuntur quas praesentium dolorum dolorem sequi dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores, ratione earum id illum, minima amet reprehenderit dicta velit nemo, omnis voluptate repellendus assumenda veritatis molestiae voluptas quisquam sed! Quam.</p>
+                    <a href="entrada.html" class="boton boton-primario centrar-texto ">Leer Entrada</a>
+                </div>
+            </article>
+            <article class="blog left-texto">
+                <div class="blog__imagen">
+                   <picture>
+                        <source  srcset="img/pizza3.webp" class="blog-img" type="image/webp" loading="lazy"><!--Para aplicar imagen webp -->
+                        <img class="blog-img" src="img/pizza3.jpg" alt="Imagen de pizza" loading="lazy">
+                    </picture>
+                </div>
+                <div class="blog__informacion">
+                    <h3 class="blog__nombre">Pizzas Chess</h3>
+                    <p class="blog__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, mollitia nesciunt excepturi impedit dolorem animi aperiam quis iste! Aspernatur, corrupti ad ipsum consequuntur quas praesentium dolorum dolorem sequi dolor provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores, ratione earum id illum, minima amet reprehenderit dicta velit nemo, omnis voluptate repellendus assumenda veritatis molestiae voluptas quisquam sed! Quam.</p>
+                    <a href="entrada.html" class="boton centrar-texto boton-primario" >Leer Entrada</a>
+                </div>
+            </article>
+            
+        </main>
+        <aside>
+            <H2>Cursos y Talleres Disponibles </H2>
+            <ul>
+                <li class="lista">
+                    <h4>Taller para hacer Ingredientes Caseros</h4>
+                    <p class="bold">Precio: <span class="normal">$120</span></p>
+                    <p class="bold">Cupo: <span class="normal">64</span></p>
+                    <p class="bold">Inscritos: <span class="normal">45</span></p>
+                </li>
+                <a class="boton boton-secundario centrar-texto" href="cursos.html">Mas información sobre los cursos</a>
+            </ul>
+            <ul><!-- Para lista no ordenada -->
+                <li class="lista">
+                    <h4>Cursos de las Pizzas más Deliciosas</h4>
+                    <p class="bold">Precio: <span class="normal">$180</span></p>
+                    <p class="bold">Cupo: <span class="normal">70</span></p>
+                    <p class="bold">Inscritos: <span class="normal">63</span></p>
+                </li>
+                <a class="boton boton-secundario centrar-texto" href="cursos.html">Más información sobre los cursos</a>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h2 class="logo__nombre no-margin centrar-texto">Blog<span class="bold">DePizza</span></h2>
+                </a>
+                <nav class="navegacion">
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div><!-- barra -->
+        </div><!-- contenedor -->
+    </footer>
+
+
+
+
+
+    <script src="js/modernizr.js"></script><!--Es para el SEO -->
+</body>
+
+</html>
